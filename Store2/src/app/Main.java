@@ -188,7 +188,7 @@ public class Main extends JFrame implements CaretListener,ActionListener {
 			totalTf.setText("");
 			changeTf.setText("");   //Else set all the textfield to blank to reset!
 			quantityTf.setText("");
-			payTf.setText("");
+			payTf.setText(" ");
 		}
 	}
 	@Override
