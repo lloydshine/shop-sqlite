@@ -67,7 +67,7 @@ public class Main extends JFrame implements CaretListener,ActionListener {
 		
 		mb = new JMenuBar();
 		p1 = new JMenu("View");
-		admin = new JMenuItem("Admin");
+		admin = new JMenuItem("Admin View");
 		admin.addActionListener(this);
 		p1.add(admin);
 		mb.add(p1);
@@ -188,7 +188,7 @@ public class Main extends JFrame implements CaretListener,ActionListener {
 			totalTf.setText("");
 			changeTf.setText("");   //Else set all the textfield to blank to reset!
 			quantityTf.setText("");
-			payTf.setText(" ");
+			payTf.setText("");
 		}
 	}
 	@Override
